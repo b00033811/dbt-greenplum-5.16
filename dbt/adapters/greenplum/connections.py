@@ -1,7 +1,9 @@
 from dbt.events import AdapterLogger
 
-from dbt.adapters.postgres.connections import (PostgresConnectionManager,
-                                               PostgresCredentials)
+from dbt.adapters.postgres.connections import (
+    PostgresConnectionManager,
+    PostgresCredentials,
+)
 
 logger = AdapterLogger("Greenplum")
 
